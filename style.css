@@ -1,4 +1,4 @@
-.logo_image{
+/* .logo_image{
     margin: 30px;
 }
 .navbar li{
@@ -32,4 +32,19 @@
 
 .main-section .box .box-content{
     padding: 20px;
+} */
+
+.navbar {
+    display: flex;
+}
+
+.logo_image {
+    flex: 0.2;
+}
+
+.navbar_left {
+    display: flex;
+    flex:0.8;
+    align-items: center;
+    justify-content: space-between;
 }
