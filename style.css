@@ -1,0 +1,35 @@
+.logo_image{
+    margin: 30px;
+}
+.navbar li{
+    list-style: none;
+    margin: 15px 20px;
+    float: left;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red;
+}
+.navbar_left{
+    border: 2px solid red;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+
+.main-section{
+    display: flex;
+    padding: 50px;
+}
+
+.main-section .box{
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.main-section .box .box-content{
+    padding: 20px;
+}
