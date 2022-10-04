@@ -1,0 +1,69 @@
+.main-box{
+    display: flex;
+    margin: 2% 8% 2% 8%;
+}
+.main-box1{
+    display: flex;
+    flex: 40%;
+}
+.main-box2{
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+}
+.main-box2-padding{
+    margin: 10%;
+}
+.box2{
+    display: flex;
+}
+.box2-1{
+    margin: 0px 10px 0px 0px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.box2-1 h4:hover{
+    color: red;
+}
+
+.counter {
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid black;
+}
+.counter input {
+    flex: 1;
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #0c0c0c;
+    color: #fff;
+    opacity: 0.7;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #000000;
+    user-select: none;
+    font-weight: 900;
+}
+.btn{
+    display: flex;
+    margin-top: 10%;
+}
+
+.btn button{
+    flex: 0.8;
+    background-color: red;
+    color: white;
+    border: red;
+}
+.btn :hover{
+    background-color: rgb(255, 60, 60);
+}
+  
