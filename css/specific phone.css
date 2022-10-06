@@ -63,6 +63,10 @@
     color: white;
     border: red;
 }
+.btn button a{
+    text-decoration: none;
+    color: white;
+}
 .btn :hover{
     background-color: rgb(255, 60, 60);
 }
