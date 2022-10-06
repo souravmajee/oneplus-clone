@@ -17,26 +17,21 @@
 .grid-box-content {
     padding-left: 20px;
 }
-.buy-now-button{
-    display: flex;
-    margin-top: 10%;
-}
-.buy-now{
-    height: 30px;
-    width: 100%;
-}
 
-.buy-now-button button{
-    flex: 0.8;
+.buy-now a{
     background-color: red;
     color: white;
     border: red;
-}
-.buy-now-button button a{
     text-decoration: none;
-    color: white;
-}
-.buy-now-button :hover{
-    background-color: rgb(255, 60, 60);
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 5px;
 }
 
+.buy-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
